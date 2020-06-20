@@ -1,7 +1,11 @@
 {
   "name": "reconwifi",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple node script to reset wifi connection if its been stale.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blmorito/recon-wifi.git"
+  },
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +13,8 @@
   "author": "Brylle Orito",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "ping": "^0.2.3",
     "wifi-control": "^2.0.1"
   }
 }
